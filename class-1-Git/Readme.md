@@ -1,0 +1,5 @@
+- `git init`                                // initialize Git Repository
+- `git status`                              // current status of Repo
+- `git add index.html`                      // Move file to Staging area
+- `git commit -m "Added index.html"`        // Commit file
+- `git log`                                 // Check Commit logs
