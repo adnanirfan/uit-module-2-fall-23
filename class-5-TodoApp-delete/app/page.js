@@ -20,12 +20,8 @@ export default function Home() {
   };
 
   const onDelete = (index) => {
-    console.log("DELETE", index);
-
     const _list = [...list];
-
     _list.splice(index, 1);
-
     setList(_list);
   };
 
