@@ -37,4 +37,10 @@
 
   - `npm install -g create-next-app`
   - `create-next-app my-app`
+  - localStorage.setItem;
+  - localStorage.getItem;
+  - localStorage.removeItem;
+  - localStorage.clear;
+  - JSON.stringify
+  - JSON.parse
   - Assignment: Add LocalStorage on Add, on Update, on Delete
