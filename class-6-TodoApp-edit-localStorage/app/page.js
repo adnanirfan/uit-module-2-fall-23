@@ -11,11 +11,10 @@ export default function Home() {
   useEffect(() => {
     const ls = localStorage.getItem("list");
 
-    if(ls !== null) {
-      setList(JSON.parse(ls))
+    if (ls !== null) {
+      setList(JSON.parse(ls));
     }
-
-  }, [])
+  }, []);
 
   const onAdd = () => {
     console.log("On Add Pressed: 1 2 ", text);
@@ -24,12 +23,14 @@ export default function Home() {
 
     setList(_list);
     setText("");
+    localStorage.setItem("list", JSON.stringify(_list));
   };
 
   const onDelete = (index) => {
     const _list = [...list];
     _list.splice(index, 1);
     setList(_list);
+    localStorage.setItem("list", JSON.stringify(_list));
   };
 
   const onEdit = (index) => {
@@ -47,6 +48,7 @@ export default function Home() {
     setList([...list]);
     setText("");
     setEditIndex(null);
+    localStorage.setItem("list", JSON.stringify(list));
   };
 
   return (
