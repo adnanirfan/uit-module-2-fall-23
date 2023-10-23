@@ -44,3 +44,17 @@
   - JSON.stringify
   - JSON.parse
   - Assignment: Add LocalStorage on Add, on Update, on Delete
+
+- Class-7
+
+  - REST API
+  - fetch()
+  - .then().catch().finally()
+  - useEffect
+  - Dynamic pages in NextJS
+
+- Class-8
+  - Cancelled
+
+- Class-9
+  - 
