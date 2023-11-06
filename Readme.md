@@ -58,3 +58,13 @@
 
 - Class-9
   - 
+
+- Class-11
+  - React
+  - Folder Structure
+  - State, Props, Hooks(useState, useEffect)
+  - LocalStorage (Todo List)
+  - Context API
+  - Data Fetch from Server
+  - Routing
+  - Redux Toolkit
