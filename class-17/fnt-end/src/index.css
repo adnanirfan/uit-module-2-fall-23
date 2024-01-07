@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn_Style {
+    @apply m-1 rounded-md border-2 border-black bg-white p-2 capitalize duration-200 ease-out  hover:bg-blue-700  hover:text-white;
+  }
+}
