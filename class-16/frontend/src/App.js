@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import List from "./List";
 import InputBox from "./InputBox";
+import "./App.css";
 
 export default function App() {
   const [text, setText] = useState("");

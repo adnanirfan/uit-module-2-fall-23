@@ -10,11 +10,6 @@ import mongoose from "mongoose";
 // set variable
 const app = express();
 
-const corsOptions = {
-  origin: "http://localhost:3000",
-  Credential: true,
-};
-
 // database connection
 (() => database_Connect())();
 
