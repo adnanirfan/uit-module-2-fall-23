@@ -68,3 +68,14 @@
   - Data Fetch from Server
   - Routing
   - Redux Toolkit
+
+- Class-19
+  - React Native
+  
+- Class-20
+  - Deployment
+  - Web Services Provider
+    - AWS, GCP, Oracle, Azure, Digital Ocean
+  - Node Server Deployment
+  - React App Deployment
+  
