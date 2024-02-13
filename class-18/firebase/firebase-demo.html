@@ -46,6 +46,14 @@
           email: email,
           profile_picture: imageUrl,
         });
+        // set(ref(db, "users/" + userId+"/"+username), "new value");
+
+        // --------------------------------
+        // const updates = {};
+        // updates["/todos/" + todoId] = {isCompleted: true, todo: "new text"};
+
+        // update(ref(db), updates);
+        // remove(ref(db, "users/" + userId+"/"+username));
       }
 
       const submitBtn = document.getElementById("submit");
